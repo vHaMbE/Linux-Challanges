@@ -1,0 +1,66 @@
+Task 1:
+$ ls - list all the files within a given directory.
+
+$ pwd - shows us our current working directory.
+
+$ mkdir - creates a new directory. - mkdir dirName
+
+$ touch - function used to create a file. - touch filename.txt
+
+$cp - function used to copy content from one file to another. - cp file.txt file_copy.txt
+
+Task 2:
+
+got to understand different paths like Absolute and relative path, as well as to how to use them.
+
+$ Absolute path - /home/recruits/workspace.
+  simple navigation - cd dirName,  cd .., cd ../../dirName
+
+$ Relative path -  /tmp
+  moving a file  - mv filename /tmp
+  
+ deleting a file from another directory - rm /dirName/fileName.
+
+Task 3:
+
+The use of the cat command
+
+$ display file content - cat fileName.txt
+
+$ concatinating multiple file content - cat fileName1 fileName2 
+
+$ storing file infor into another file - cat fileName > displayFile
+
+$ adding content in a file on command use funtion Echo - echo "The End." >> displayFile
+
+Task 4:
+
+$ locating a file on a system - locate filename.txt
+
+Task 5:
+
+$ create file - touch pad.md
+
+$ change directory - cd ../Desktop
+
+$ copy file from on directory to another - cp ../../Documents/pad.md pad_copy.md
+
+$ updating the locate database - locate updateb
+
+$ find a file using locate - locate pad.copy.md
+
+Task 6:
+
+$ finding a specific extention - locate "*.pdf" or could use fin . -type f -name "*.pdf"
+
+$ copying content of the search in a file - locate "*.pdf" | filename.txt
+
+$ displaying content of files that are modified - cat filename.txt
+
+Task 7:
+$ makeing a file -  nano filename.txt
+
+$ creating a folder - mkdir dirName
+
+$ moving a file int a diractory - mv filename.txt dirName.
+
